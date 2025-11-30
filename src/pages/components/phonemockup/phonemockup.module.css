@@ -1,0 +1,61 @@
+.phone {
+  width: 477px;
+  height: 622px;
+  background: #111;
+  border-radius: 40px;
+  background-color: #88B702;
+}
+
+.phone h3 {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-right: 200px;
+}
+
+.phone p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.phone img {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 78px;
+  margin-left: 50px;
+}
+
+@media (min-width: 390px) and (max-width: 1200px) {
+  .phone {
+    width: 90%;
+    max-width: 370px;
+    padding: 40px 0 30px 0;
+    height: 530px;
+  }
+
+  .phone h3 {
+    margin: 0 auto 10px auto;
+    margin-right: 110px;
+  }
+
+  .phone p {
+    width: 90%;
+    margin: 0 auto; 
+    line-height: 26px;
+    font-size: 16px;
+  }
+
+  .phone img {
+    width: 80%;
+    margin: 40px auto 0 auto; 
+    display: block;
+    height: 336px;
+  }
+}

@@ -1,0 +1,106 @@
+.technology_section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #88B702;
+    height: 450px;
+    overflow: visible;
+    gap: 13px;
+}
+
+.text {
+    max-width: 650px;
+    margin-left: 70px;
+    /* margin-bottom: 30px; */
+}
+
+.desktop_text {
+    display: block;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.3;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.desktop_p {
+    display: block;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.mobile_text {
+    display: none;
+}
+
+.mobile_p {
+    display: none;
+}
+
+.phones {
+    position: relative;
+    margin-bottom: 16px;
+    height: 715px;
+}
+
+
+@media (min-width: 390px) and (max-width: 1200px) {
+
+    .desktop_text{
+        display: none;
+    }
+
+    .desktop_p{
+        display: none;
+    }
+
+  .technology_section {
+    flex-direction: column;
+    height: 510px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .text {
+    margin-left: 0;
+    max-width: 360px;
+  }
+
+  .mobile_text {
+    display: block;
+    font-family: "DM Sans";
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: white;
+  }
+
+  .mobile_p {
+    display: block;
+    font-family: "DM Sans";
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .phones {
+    margin: 0;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .phones img {
+    width: 267px;
+    height: 200px;
+  }
+}

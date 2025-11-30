@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  background-color: black;
+}
+
+.text {
+  max-width: 420px;
+  margin-left: 150px;
+}
+
+.text h2 {
+  font-family: "DM Sans";
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.description {
+  color: white;
+  font-size: 16px;
+  font-family: "DM Sans";
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: white;
+}
+
+.list li img {
+  width: 45px;
+  margin-right: 12px;
+}
+
+.computer {
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+
+@media (min-width: 390px) and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    padding: 0;         
+    margin: 0;          
+    gap: 20px;
+    background-color: black;
+    height: 590px;
+  }
+
+  .text {
+    margin: 0;               
+    padding: 0 20px;        
+    max-width: 100%;
+  }
+
+  .text h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 0;           
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .list li {
+    font-size: 16px;
+  }
+
+  .list li img {
+    width: 46px;
+  }
+
+  .computer {
+    margin: 0;           
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .apple_computer {
+    width: 75%;
+  }
+}

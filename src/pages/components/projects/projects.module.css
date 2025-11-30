@@ -1,0 +1,80 @@
+.home {
+  background-color: black;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home h1 {
+  font-family: "DM Sans";
+  font-size: 42px;
+  font-style: bold;
+}
+
+.subtitle {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  width: 496px;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 27px;
+  margin-top: 47px;
+}
+
+.side_cards {
+  display: flex;  
+  flex-direction: column;
+  gap: 32px;
+  /* height: 395px; */
+}
+
+
+
+
+@media (min-width: 390px) and (max-width: 1200px) {
+
+  .home {
+    padding: 0;             
+    margin-top: 0;          
+    min-height: auto;      
+  }
+
+  .home h1 {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0 0 10px 0;    
+    text-align: left;
+    width: 90%;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    line-height: 22px;
+    width: 90%;
+    margin: 0 auto 15px auto;
+    text-align: left;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .side_cards {
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+  }
+}
